@@ -1,4 +1,4 @@
-# http://192.168.99.100/?page=member&id=1
+# http://192.168.99.100/?page=member&id=1&Submit=Submit
 
 ### getting current database name and listing all databases:
 
