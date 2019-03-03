@@ -1,4 +1,5 @@
-#### http://192.168.99.100/?page=feedback
+# http://192.168.99.100/?page=feedback
+
 ```
 <script type="text/javascript">
 function validate_required(field,alerttxt)
@@ -43,7 +44,7 @@ with (thisform) {
 ```
 
 the page seems to be poorly written,
-on line 37 we see the input **type** *Submit* which has an `onClick` attribute `return checkForm();`
+the form has an input of **type** *Submit* which has an `onClick` attribute `return checkForm();`
 however there is no such javascript function on this page,
 when pressing the button it generates an error in chrome developer tools,
 in "Console" section of the developer tools we can see
