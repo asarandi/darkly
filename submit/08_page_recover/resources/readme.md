@@ -24,7 +24,9 @@ e1z2r10p4%
 ```
 
 so with the first command we post original form values, and we get the `WrongAnswer.gif`
+
 if we change the value of the `mail` field to something else, the page gives us the flag
 
 ##### flag `1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0`
+
 nice

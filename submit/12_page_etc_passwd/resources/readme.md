@@ -48,16 +48,22 @@ http://192.168.99.100/index.php?page=survey 		 200
 http://192.168.99.100/index.php?page=upload 		 200
 ```
 
-
+#
 
 i noticed that for `/index.php?page=bla` there's a javascript alert _**Wtf ?**_
+
 however for `/index.php?page=%2F../../../` the message is _**Nope..**_,
+
 and if i append another `../` the javascript alert changes to _**Almost**_
+
 with another `../` it changes to _**Still nope..**_
+
 at `/index.php?page=../../../../../../../` the page says _**You can DO it !!!  :]**_
 
+#
 
 after looking at `https://www.owasp.org/index.php/Path_Traversal` i finally figured it out
+
 the url for the flag is `http://192.168.99.100/index.php?page=../../../../../../../etc/passwd`
 
 the page shows a javascript alert with the following message:

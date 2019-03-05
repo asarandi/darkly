@@ -1,6 +1,7 @@
 # cookie
 
 i noticed that the website stores a cookie called `I_am_admin` with a peculiar value
+
 ```sh
 e1z2r10p4% curl -v -s 'http://192.168.99.100' -o /dev/null
 * Rebuilt URL to: http://192.168.99.100/
@@ -26,10 +27,13 @@ e1z2r10p4% curl -v -s 'http://192.168.99.100' -o /dev/null
 ```
 
 the value is `68934a3e9455fa72420237eb05902327` and it looks like a hash,
+
 after a quick google search, i learned that its an **md5** hash of the string _**false**_
 
  ... hmm, what if we set that cookie value to an **md5** hash of the string _**true**_ ?
+ 
  let's find out ...
+ 
  
  ```sh
  e1z2r10p4% curl -s 'http://192.168.99.100' -o before.html
@@ -46,3 +50,4 @@ e1z2r10p4%
 
 ##### we have the flag `df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3`
 that was easy
+
