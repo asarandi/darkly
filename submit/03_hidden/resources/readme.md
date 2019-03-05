@@ -4,11 +4,13 @@
 
 the `.hidden/` folder contains lots of subfolders and each one of those has its own subfolders, and there is several levels of that;
 
-bottom of the directory tree there's README files, most of them contain the same text,
+at bottom of the directory tree there is a README file,
+
+most of the README's contain the same text,
 
 if someone wanted to check all the files that would be problematic because of the multitude of folders and subfolders
 
-i wrote a little script to traverse the directory tree and extract the unique strings of text contained in readme files
+i wrote a little script to traverse the directory tree and extract the unique strings of text contained in README files
 
 ```
 #!/usr/bin/env python3

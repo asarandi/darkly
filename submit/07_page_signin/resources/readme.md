@@ -17,7 +17,7 @@ show databases;
 
 however, because we're doing sql injection, we must use `union` and get the database names via `select`
 
-we can the database names from `information_schema.schemata`
+we can get the database names from `information_schema.schemata`
 
 to see all available columns in schemata we can do `select * from information_schema.schemata`
 

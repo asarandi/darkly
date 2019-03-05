@@ -10,7 +10,7 @@ inside the file we find
 root:8621ffdbc5698829397d97767ac13db3
 ```
 
-a quick google of the hash reveals that its an MD5 hash of the string **_dragon_**
+a quick google search reveals that this is an MD5 hash of the string **_dragon_**
 
 
 once we try the combination `root:dragon` for the */admin* page
