@@ -131,6 +131,7 @@ Notice: Undefined index: id in /var/www/html/includes/member.inc.php on line 10
 ```
 
 this also makes it evident that the rest of the pages are stored in the same folder and have a similar name pattern:
+
 |url|file|
 |-|-|
 /index.php?page=member|/var/www/html/includes/member.inc.php
