@@ -115,3 +115,35 @@ as per instructions SHA-256 of `fortytwo` is:
 we have the flag, great success
 
 
+#
+
+### bonus: full path disclosure vulnerability
+
+
+consider this link: `http://192.168.99.100/?page=member&id=1&Submit=Submit`
+
+if we change the name of the `id` parameter to an anything else, then the application reveals its internal directory structure
+
+```sh
+e1z2r10p4% curl -s -L 'http://192.168.99.100/?page=member&ida=1&Submit=Submit' -o - | tail -n 2
+Notice: Undefined index: id in /var/www/html/includes/member.inc.php on line 10
+<pre>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1</pre>
+```
+
+this also makes it evident that the rest of the pages are stored in the same folder and have a similar name pattern:
+|url|file|
+|-|-|
+/index.php?page=member|/var/www/html/includes/member.inc.php
+/index.php?page=upload|/var/www/html/includes/upload.inc.php
+/index.php?page=survey|/var/www/html/includes/survey.inc.php
+/index.php?page=signin|/var/www/html/includes/signin.inc.php
+
+
+... you get the idea
+
+you can verify by opening 
+
+`http://192.168.99.100/includes/default.inc.php` or
+
+`http://192.168.99.100/includes/survey.inc.php` ... etc
+

